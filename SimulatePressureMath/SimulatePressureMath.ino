@@ -4,10 +4,10 @@
 #include "soc/rtc_cntl_reg.h"
 
 // --- Adafruit IO & Wi-Fi Configuration ---
-#define IO_USERNAME  "nickkerr"
-#define IO_KEY       "aio_JCne14Ei0zAqrIyKd14RTmKvqSHA"
-#define WIFI_SSID    "Armen's iPhone"
-#define WIFI_PASS    "niggaaaa"
+#define IO_USERNAME  ""
+#define IO_KEY       ""
+#define WIFI_SSID    ""
+#define WIFI_PASS    ""
 
 AdafruitIO_WiFi io(IO_USERNAME, IO_KEY, WIFI_SSID, WIFI_PASS);
 AdafruitIO_Feed *flowFeed;
